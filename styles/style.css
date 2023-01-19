@@ -55,7 +55,7 @@
     color: #727272;
     margin: 32px 0;
 }
-.Head-2 button{
+.Head-2 button, button{
     width: 180px;
     height: 64px;
     background: #FF900E;
@@ -74,4 +74,59 @@
 .head-img img{
     width: 100%;
     height: 100%;
+}
+/* main */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 130px;
+}
+.contant{
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+}
+.contant-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    
+}
+.contant-2{
+    width: 537px;
+    height: 304px;
+    margin-left: 83px;
+}
+.contant-2 h1{
+    display: flex;
+    font-weight: 500;
+    font-size: 45px;
+    width: 468px;
+    height: 106px;
+    flex-wrap: wrap;
+}
+.span-1{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.span-2{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.span-3{
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contant-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
 }
