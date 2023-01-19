@@ -36,7 +36,13 @@
 }
 .item-2 ul li{
     list-style: none;
-    margin-right: 20px;
+    margin-right: 20px;  
+}
+li a{
+    font-weight: 500;
+    color: #424242;
+    font-size: 18px;
+    text-decoration: none;
 }
 /* head-2 */
 .Head-2{
@@ -211,7 +217,7 @@
     color: #131313;
     margin-bottom: 24px;
 }
-.main-3-title p, .Sponsors p, .copyright p{
+.main-3-title p, .Sponsors p, .copyright p {
     font-weight: 400;
     font-size: 19px;
     color: #727272; 
