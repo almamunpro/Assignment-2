@@ -194,3 +194,53 @@
     margin-top: -133px;
     margin-left: -92px;
 }
+
+/* main-3 */
+
+.main-3{
+    width: 1440px;
+    margin-top: 130px;
+}
+.main-3-title h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.main-3-title p{
+    font-weight: 400;
+    font-size: 19px;
+    color: #727272;
+    width: 542px;
+    height: 52px;
+    margin-top: 24px;
+}
+
+/* main-4 */
+.main-4{
+    width: 1340px;
+    height: 241px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.achievement{
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.number{
+    font-weight: 600;
+    font-size: 45px;
+    margin: 5px 0;
+    color: #424242;
+}
+.type{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 5px 0;
+}
